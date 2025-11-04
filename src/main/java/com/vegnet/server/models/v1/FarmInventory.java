@@ -1,7 +1,5 @@
 package com.vegnet.server.models.v1;
 
-import java.util.Map;
-
 import lombok.Getter;
 import lombok.Setter;
 
@@ -12,4 +10,5 @@ public class FarmInventory {
     private Farm farm;
     private Vegetable vegetable;
     private double availableStockWeight;
+    private boolean isAvailable;
 }

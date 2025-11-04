@@ -1,4 +1,4 @@
-package com.vegnet.server.models.v1;
+package com.vegnet.server.models.v1.future;
 
 public interface IPaymentProvider {
 

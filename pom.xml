@@ -12,7 +12,7 @@
 	<artifactId>vegnetmodels</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>vegnetmodels</name>
-	<description>Demo project for Spring Boot</description>
+	<description>The server for veg-net platform</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -50,6 +50,15 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
 	</dependencies>
 
