@@ -2,10 +2,12 @@ package com.vegnet.server.models.v1;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 @Getter
 @AllArgsConstructor
+@NoArgsConstructor
 public class LocationCordinates {
-    private final double longitude;
-    private final double latitude;
+    private  double longitude;
+    private  double latitude;
 }

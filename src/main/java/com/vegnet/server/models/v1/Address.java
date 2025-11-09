@@ -3,12 +3,12 @@ package com.vegnet.server.models.v1;
 
 import jakarta.persistence.Convert;
 import lombok.Getter;
-import lombok.RequiredArgsConstructor;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Getter
 @Setter
-@RequiredArgsConstructor
+@NoArgsConstructor
 public  class Address {
     private  String streetAddressLine1;
     private  String streetAddressLine2;

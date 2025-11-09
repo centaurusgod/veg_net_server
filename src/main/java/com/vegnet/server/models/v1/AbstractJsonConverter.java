@@ -20,9 +20,12 @@ public abstract class AbstractJsonConverter<T> implements AttributeConverter<T, 
     @Override
     public String convertToDatabaseColumn(T attribute) {
         if (attribute == null) {
+            System.out.println("Address attributes are null.");
             return null;
         }
         try {
+            System.out.println("Address attribute stringified: ");
+            System.out.println(objectMapper.writeValueAsString(attribute));
             return objectMapper.writeValueAsString(attribute);
         } catch (IOException e) {
             throw new RuntimeException("Error converting object to JSON string", e);
